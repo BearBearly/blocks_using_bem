@@ -14,6 +14,10 @@ body{
   /*for fixed header*/
   height: 100%;
 }
+
+.clear{
+  clear: both;
+}
 .page{
   overflow-y: scroll;
   flex: 1 auto;
@@ -51,7 +55,7 @@ body{
 }
 
 .movie__img-and-rating{
-  float: left;
+ display: inline-block;
 }
 
 .movie__img-and-rating img{
@@ -65,47 +69,49 @@ body{
   color: orange;
 }
 
-.movie_descr{
-  margin-left: 140px;
+.movie__descr{
+ display: inline-block;
+ vertical-align: top;
+ margin-left: 20px;
 }
 
-.movie_descr .movie__title{
-  margin: 20px 0;
+.movie__descr .movie__title{
+  margin-bottom: 15px;
 }
 
-.movie_descr .movie__title a{
+.movie__descr .movie__title a{
   text-decoration: none;
   color: #333;
   font-size: 26px;
 }
 
-.movie_descr .movie__title a span{
+.movie__descr .movie__title a span{
   text-transform: uppercase;
 }
 
-.movie_descr .movie__short-info{
+.movie__descr .movie__short-info{
   font-style: italic;
+  margin: 10px 0;
+}
+
+.movie__descr .movie__roles{
   margin: 15px 0;
 }
 
-.movie_descr .movie__roles{
+.movie__descr .movie__year{
   margin: 15px 0;
 }
 
-.movie_descr .movie__year{
+.movie__descr .movie__intro{
   margin: 15px 0;
 }
 
-.movie_descr .movie__intro{
-  margin: 15px 0;
-}
-
-.movie_descr .movie_nav{
+.movie__nav{
   text-align: center;
   margin: 20px 0;
 }
 
-.movie_descr .movie_nav .btn{
+.movie__nav .btn{
   display: inline-block;
   color: #fff;
   text-decoration: none;
@@ -113,8 +119,39 @@ body{
   background: #06c7dc;
 }
 
-.movie_descr .movie_nav .btn_green{
+.movie__nav .btn_green{
   background: green;
+}
+
+.article{
+  border: 2px solid #000;
+  border-radius: 2px;
+  padding: 15px;
+}
+
+.article__date{
+  font-style: italic;
+}
+
+.article__rating{
+  margin: 15px 0;
+}
+
+.article__rating span{
+  color: orange;
+}
+
+.article__info-icons{
+  margin: 15px 0;
+}
+
+.article__info-icons span:last-child{
+  margin-left: 20px;
+}
+
+.article__info-icons span,
+.article__info-icons span i{
+  color: #06c7dc;
 }
 
 
