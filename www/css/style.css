@@ -45,3 +45,76 @@ body{
   color: #fff;
   margin-top: auto;
 }
+
+.movie{
+  margin: 20px 0;
+}
+
+.movie__img-and-rating{
+  float: left;
+}
+
+.movie__img-and-rating img{
+  min-width: 120px;
+  max-width: 120px;
+  width: 120px;
+}
+
+.rating span.fas,
+.rating span.fa{
+  color: orange;
+}
+
+.movie_descr{
+  margin-left: 140px;
+}
+
+.movie_descr .movie__title{
+  margin: 20px 0;
+}
+
+.movie_descr .movie__title a{
+  text-decoration: none;
+  color: #333;
+  font-size: 26px;
+}
+
+.movie_descr .movie__title a span{
+  text-transform: uppercase;
+}
+
+.movie_descr .movie__short-info{
+  font-style: italic;
+  margin: 15px 0;
+}
+
+.movie_descr .movie__roles{
+  margin: 15px 0;
+}
+
+.movie_descr .movie__year{
+  margin: 15px 0;
+}
+
+.movie_descr .movie__intro{
+  margin: 15px 0;
+}
+
+.movie_descr .movie_nav{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.movie_descr .movie_nav .btn{
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  background: #06c7dc;
+}
+
+.movie_descr .movie_nav .btn_green{
+  background: green;
+}
+
+
